@@ -5,11 +5,14 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
-// Banco de dados em memória
+// Banco de dados em memória (com a sua lista personalizada)
 let books = [
-  { id: 1, title: 'Clean Code', author: 'Robert C. Martin' },
+  { id: 1, title: 'O Trem Do Amanha', author: 'Robert Calvo' },
+  { id: 2, title: 'Noite Macabra', author: 'Agata Crist' },
+  { id: 3, title: 'Vento Seco', author: 'Bruno Morais' }
 ];
-let nextId = 2;
+
+let nextId = 4; // Como temos 3 livros iniciais, o próximo será o 4!
 
 // 1. READ (GET)
 app.get('/books', (req, res) => {
