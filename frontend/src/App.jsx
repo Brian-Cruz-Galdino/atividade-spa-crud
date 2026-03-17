@@ -79,7 +79,7 @@ export default function App() {
           
           <div className="flex justify-between items-center mb-8">
             <h1 className="text-5xl font-black tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-yellow-200 to-yellow-500 drop-shadow-[0_0_15px_rgba(253,224,71,0.3)]">
-              🌌 GoGh Livraria
+               GoGh Livraria
             </h1>
             <button 
               onClick={() => setIsAuthenticated(false)}
