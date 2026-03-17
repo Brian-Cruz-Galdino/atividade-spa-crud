@@ -21,7 +21,7 @@ export default function Login({ onLogin }) {
     <div className="max-w-md mx-auto mt-20 relative z-10">
       <div className="text-center mb-8">
         <h1 className="text-5xl font-black tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-yellow-200 to-yellow-500 drop-shadow-[0_0_15px_rgba(253,224,71,0.3)]">
-          🌌 GoGh Livraria
+          GoGh Livraria
         </h1>
         <p className="text-blue-300 mt-3 font-light text-lg">Acesse sua biblioteca estelar</p>
       </div>
