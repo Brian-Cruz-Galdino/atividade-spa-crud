@@ -8,6 +8,8 @@ O design da interface foi inspirado na obra **"A Noite Estrelada" de Van Gogh**,
 * **Front-end:** React 19, Vite, Tailwind CSS (Glassmorphism), Lucide React (Ícones).
 * **Back-end:** Node.js, Express, CORS.
 * **Conceitos aplicados:** Hook `use`, `<Suspense>`, `<ErrorBoundary>`, Promises Estáveis, UX Feedback.
+* **A Tecnologia:** A nossa API foi feita usando Node.js com o microframework Express.
+* **O Banco de Dados:** Como a atividade não exigia um banco de dados real (como MySQL ou MongoDB), nossa API usa uma estrutura de dados "em memória". Ou seja, os livros ficam salvos em um Array (let books = []) enquanto o servidor estiver ligado.
 
 ## ⚙️ Como executar o projeto
 
